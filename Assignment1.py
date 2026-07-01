@@ -78,38 +78,35 @@ def larger_num(num1,num2,num3):
         print(num2,"is largest among all")
     else:
         print(num3,"is largest among all")
-larger_num(10,12,50)"""
+larger_num(10,12,50)
 
 
 
-# #Question 7 A school wants to calculate grades for students based on marks obtained in five subjects
-# def ip_marks():
-#     for i in range(0,5):
-#         a = a.extend[0](int(input("Marks of subject")))
+#Question 7 A school wants to calculate grades for students based on marks obtained in five subjects
+def ip_marks():
+    for i in range(0,5):
+        a = a.extend[0](int(input("Marks of subject")))
         
-#     return Marks
-# def grade_marks(Marks):
-#     avg= sum(Marks)/5
-#     if(avg>90):
-#         print("A grade")
-#     elif(avg>80):
-#         print("B grade")
-#     elif(avg>70):
-#         print("C grade")
-#     elif(avg>60):
-#         print("D grade")
-#     elif(avg>50):
-#         print("E grade")
-#     else:
-#         print("F grade")
+    return Marks
+def grade_marks(Marks):
+    avg= sum(Marks)/5
+    if(avg>90):
+        print("A grade")
+    elif(avg>80):
+        print("B grade")
+    elif(avg>70):
+        print("C grade")
+    elif(avg>60):
+        print("D grade")
+    elif(avg>50):
+        print("E grade")
+    else:
+        print("F grade")
 
-# Marks = ip_marks()
-# grade_marks(Marks)
+Marks = ip_marks()
+grade_marks(Marks)
 
-#Question8 3 Maximum login attempt
-# def get_pass():
-    
-#     return password
+#Question8 Three Maximum login attempt
 
 def login(attempt = 0):
     
@@ -124,9 +121,19 @@ def login(attempt = 0):
             attempt += 1
         print("Login Unsuccessful")
 
+        if (attempt == 3):
+            print("Maximum limit attained")
+            exit
+    
+    
 
-login()
 
+login()     """
+
+#Question 9 Display menu items repeatedly
+
+    
+    
 
 
 
